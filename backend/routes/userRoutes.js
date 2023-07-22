@@ -10,7 +10,7 @@ import {
 } from "../controllers/userControllers.js";
 
 router.post("/auth", authUser);
-router.post("/", registerUser);
+router.post("/",registerUser);
 router.post("/logout", logoutUser);
 router
   .route("/profile")
